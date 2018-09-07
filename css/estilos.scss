@@ -59,30 +59,30 @@ header .container {
   position: relative;
 }
 
-.menu-opcoes {
+.menu-principal {
   position: absolute;
   right: 0;
   top: -.5em;
   font-size: 1.2em;
   font-weight: lighter;
-}
 
-.menu-opcoes ul {
-  padding-left: 0;
-}
+  ul {
+    padding-left: 0;
+  }
 
-.menu-opcoes li {
-  display: inline-block;
-  width: 5em;
-}
+  li {
+    display: inline-block;
+    width: 5em;
+  }
 
-.menu-opcoes a {
-  color: $corbranca;
-  text-decoration: none;
-}
+  a {
+    color: $corbranca;
+    text-decoration: none;
+  }
 
-.menu-opcoes a:hover {
-  text-decoration: underline;
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 /** Destaque **/
@@ -120,7 +120,6 @@ header .container {
   @include sobra-padrao();
   font-weight: bold;
 }
-
 
 /** Sobre **/
 .sobre {
@@ -244,7 +243,8 @@ header .container {
   margin-left: 2em;
 }
 
-.icone-check, .icone-x {
+.icone-check,
+.icone-x {
   background: url(../imagens/sprite.png) no-repeat;
   width: 18px;
   height: 18px;
@@ -257,8 +257,6 @@ header .container {
 .icone-x {
   background-position: -33px -5px;
 }
-
-
 
 /** Blog **/
 .blog {
