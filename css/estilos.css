@@ -45,21 +45,17 @@ header .container {
   font-size: 1.2em;
   font-weight: lighter;
 }
-
 .menu-principal ul {
   padding-left: 0;
 }
-
 .menu-principal li {
   display: inline-block;
   width: 5em;
 }
-
 .menu-principal a {
   color: #fff;
   text-decoration: none;
 }
-
 .menu-principal a:hover {
   text-decoration: underline;
 }
@@ -226,7 +222,8 @@ header .container {
   margin-left: 2em;
 }
 
-.icone-check, .icone-x {
+.icone-check,
+.icone-x {
   background: url(../imagens/sprite.png) no-repeat;
   width: 18px;
   height: 18px;
