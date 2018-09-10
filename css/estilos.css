@@ -1,4 +1,3 @@
-/** Geral **/
 body {
   font-family: "Roboto Slab", serif;
 }
@@ -25,7 +24,6 @@ h2 {
   margin-top: 0;
 }
 
-/** Header **/
 header {
   border-top: 5px solid #c24e4b;
   background: rgba(30, 44, 53, 0.8);
@@ -60,7 +58,6 @@ header .container {
   text-decoration: underline;
 }
 
-/** Destaque **/
 .destaque {
   background: url(../imagens/destaque.jpg) center bottom repeat-x;
   -webkit-background-size: cover;
@@ -97,30 +94,6 @@ header .container {
   font-weight: bold;
 }
 
-/** Sobre **/
-.sobre {
-  background: #ebebeb;
-}
-
-.duas-colunas {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  columns: 1;
-}
-
-.duas-colunas h3 {
-  margin: 0;
-}
-
-.sobre p {
-  font: 0.9em/1.8 sans-serif;
-}
-
-.sobre p:first-child {
-  margin-bottom: 3em;
-}
-
 .plataformas {
   padding: 0;
 }
@@ -152,7 +125,29 @@ header .container {
   background-image: url(../imagens/logo-blackberry.png);
 }
 
-/** Planos **/
+.sobre {
+  background: #ebebeb;
+}
+
+.duas-colunas {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  columns: 1;
+}
+
+.duas-colunas h3 {
+  margin: 0;
+}
+
+.sobre p {
+  font: 0.9em/1.8 sans-serif;
+}
+
+.sobre p:first-child {
+  margin-bottom: 3em;
+}
+
 .planos {
   background: #1e2c35;
 }
@@ -234,7 +229,6 @@ header .container {
   background-position: -33px -5px;
 }
 
-/** Blog **/
 .blog {
   display: block;
   position: relative;
@@ -281,7 +275,6 @@ header .container {
   text-decoration: underline;
 }
 
-/** Contato **/
 .contato input,
 .contato button {
   display: block;
@@ -315,7 +308,6 @@ textarea {
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
 
-/** Footer **/
 footer {
   display: block;
   position: relative;
