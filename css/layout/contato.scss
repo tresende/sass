@@ -26,5 +26,5 @@ textarea {
   height: 38px;
   font-size: 1.2em;
   @include borda-arredondada();
-  @include sobra-padrao();
+  @extend %sombra-padrao;
 }
