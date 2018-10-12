@@ -1,9 +1,7 @@
 $cor-padrao: darken(#c24e4b, 0);
 $cor-axiliar: lighten(#1e2c35, 0);
-
 $cor-axiliar: adjust-hue(#1e2c35, 50);
-$cor-axiliar:saturate(#1e2c35, 50); 
+$cor-axiliar:saturate(#1e2c35, 50);
 $cor-axiliar:complement(#1e2c35);
-
-
 $corbranca: #fff;
+$ponto-de-quebra:980px;
