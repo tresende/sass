@@ -43,6 +43,11 @@ header .container {
     li {
         display: inline-block;
         width: 5em;
+
+        @media #{$mq-mobile} {
+            margin: .4em;
+            width: auto;
+        }
     }
 
     a {
@@ -51,6 +56,17 @@ header .container {
 
         &:hover {
             text-decoration: underline;
+        }
+    }
+
+    @media #{$mq-mobile} {
+        position: static;
+        display: block;
+        width: auto;
+        text-align: center;
+
+        li {
+            margin: .4em;
         }
     }
 }
