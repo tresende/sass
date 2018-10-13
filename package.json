@@ -1,0 +1,23 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch css/estilos.scss:estilos.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tresende/sass.git"
+  },
+  "author": "Thiago Resende",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tresende/sass/issues"
+  },
+  "homepage": "https://github.com/tresende/sass#readme",
+  "devDependencies": {
+    "compass": "^0.1.1"
+  }
+}
